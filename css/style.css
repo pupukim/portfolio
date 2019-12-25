@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+
+/*헤더*/
+#header .logo{font-family: 'Permanent Marker', cursive; color: #fe7191;}
+
+
+/*이미지 슬라이드*/
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 1290px;
+    min-height: 100%;
+}
+
+.carousel .carousel-inner {
+    overflow: hidden;
+}
+
+.carousel .carousel-caption {
+    color: #000;
+}
+
+.carousel .background {/*임시배경색*/
+    background: #000;
+}
+
+.carousel .carousel-caption p {
+    opacity: 0;
+    transition: all .84s .2s ease;
+    transform: translateX(50px);
+}
+
+.carousel .active .carousel-caption p {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+/*포트폴리오*/
+.sub_title{
+    font-size: 40px; font-family: 'Permanent Marker', cursive; color: #fff; 
+    background: url('../img/tBack.png') no-repeat center; 
+}
+#portfolio img{width: 100%; height: auto;}
+
+.port{position: relative; overflow: hidden; width: 500px; height: auto;}
+.port em{
+    position: absolute; top: -100%; left: 0;
+    width: 100%; height: 100%;
+    display: block; background: #333;
+    opacity: 0;
+    transition: all .3s ease;
+}
+.port:hover em{
+    top: 0;
+    opacity: .8;
+}
+.port em i{padding-top:25%; }
+
+ 
+
+/*푸터*/
+footer .pointer {
+    position: absolute;
+    right: 10px;
+    color: #222;
+    text-decoration: none;
+    animation-iteration-count: infinite;
+    animation: pointer 2s .5s infinite linear alternate;
+}
+
+@keyframes pointer {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+footer .pointer>em{position: absolute; top: 8px;}

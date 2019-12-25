@@ -1,0 +1,298 @@
+<! DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="kim">
+        <title>성실한 웹퍼블리셔 | 김예지</title>
+
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/carousel/">
+        
+
+
+        <!--FontsAwesome-->
+        <link rel="stylesheet" href="../responsive/css/font-awesome.css">
+
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+            
+            @media (max-width: 768px) {
+                .port{ height: 300px;}
+            }
+
+        </style>
+        <!-- Custom styles for this template -->
+        <link href="css/carousel.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="logo navbar-brand" href="#">PUPU's</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#header">Intro <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profile">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main role="main">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner background">
+                    <video autoplay muted loop id="myVideo">
+                                            <source src="img/wartercolor.mp4" type="video/mp4">
+                    </video>
+                    <!--carousel1-->
+                    <div class="carousel-item active">
+
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Let's bright</h1>
+                                <p>밝은 분위기로 소통하는 기분 좋은 <br>퍼블리싱을 만들어 갑니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--//carousel1-->
+
+                    <!--carousel2-->
+                    <div class="carousel-item">
+
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Let' learn</h1>
+                                <p>퍼블리싱의 과정에서 배움의 즐거움을 알고 <br>공부하는 퍼블리셔입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--//carousel2-->
+
+                    <!--carousel3-->
+                    <div class="carousel-item">
+
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Let's do it</h1>
+                                <p>일단 시도하자! 시작을 통해 <br>성장해 나아감을 아는 퍼블리셔입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--//carousel3-->
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+
+
+
+            <div class="container marketing">
+
+                <!-- PROFILE -->
+                <hr id="profile" class="featurette-divider pt-5">
+                <h2 class="sub_title text-center pt-5 pb-5">PROFILE</h2>
+                <div class="row">
+                    <div class="col-lg-4">
+                       <img src="img/let.png" width="150" height="150" alt="let's">
+                        <h2>#저는</h2>
+                        <p>김예지<br/>
+                           dpwl1537@hanmail.net<br/>
+                           2018.07-2019.01 이젠아카데미 (하이브리드UI/UX디자인 수료)</p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                       <img src="img/do.png" width="140" height="140" alt="do">
+                        <h2>#스킬</h2>
+                        <p>
+                        웹표준,웹접근성을 고려한 퍼블리싱<br/>
+                        크로스브라우징을 고려한 퍼블리싱<br/>
+                        HTML5를 활용이 가능한 퍼블리싱<br/>
+                        OPEN API를 구현할 수 있는 퍼블리싱<br/>
+                        SEO를 고려한 퍼블리싱<br/>
+                        포토샵과 일러스트레이터를 활용할 줄 알기에 1px의 오차도 정밀하게 고려합니다!
+                        </p>
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-4">
+                            <img src="img/this.png" width="140" height="140" alt="this">
+                        <h2>#성격</h2>
+                        <p>'하고자하면 못할 것이 없다!'라는 마인드로 매사에 적극적이고 하나라도 더 경험을 쌓고자 노력하는 성격입니다. 완고한 성격은 '하나를 배우더라도 완벽히!'라는 의지를 심어줍니다. 팀워크를 다져야 하는 작업들도 솔선수범할 정도로 커뮤니케이션에 능합니다.</p>
+                    </div><!-- /.col-lg-4 -->
+                </div><!-- /.row -->
+                <!--//PROFILE-->
+
+
+                <!-- START THE FEATURETTES -->
+                <div id="portfolio">
+                    <hr class="featurette-divider">
+                    <h2 class="sub_title text-center mb-5 pt-5 pb-5">PORTFOLIO</h2>
+
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading">크루즈관련 사이트 컨셉작업 <br><span class="text-muted">2019.12-2019.12</span></h2>
+                            <p class="lead">HTML 100% / CSS 100% / JAVASCRIPT 100% / jQuery 100% / DESIGN 50%<br/>
+                            제이쿼리를 이용한 로그인 검사 가능
+                            </p>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="port bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                                <img width="500" height="500" src="img/ship.png">
+                                <em class="text-center"><a target="_new" href="http://pinghaa.dothome.co.kr/ship/"><i class="fa fa-2x fa-search-plus align-middle" aria-hidden="true"></i></a></em>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading">패션디자인 사이트 컨셉 협업 <br><span class="text-muted">2018.11-2018.12</span></h2>
+                            <p class="lead">HTML100% / CSS 100% / jQuery 100%</p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <div class="port bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                                <img width="500" height="500" src="img/iris.jpg">
+                                <em class="text-center"><a target="_new" href="http://pinghaa.dothome.co.kr/iris/"><i class="fa fa-search-plus fa-2x align-middle" aria-hidden="true"></i></a></em>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-7">
+                            <h2 class="featurette-heading">의료 사이트 컨셉작업<br/> <span class="text-muted">2019.10-2019.11</span></h2>
+                            <p class="lead">웹 표준, 웹 접근성, 반응형 웹<br>HTML/CSS/Javascript</p>
+                        </div>
+                        <div class="col-md-5">
+                            <!--
+                        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
+                            <title>Placeholder</title>
+                            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+                        </svg>
+-->
+                            <div class="port bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                                <img width="500" height="500" src="img/medical.jpg">
+                                <em class="text-center"><a target="_new" href="http://pinghaa.dothome.co.kr/responsive/"><i class="fa fa-search-plus fa-2x align-middle" aria-hidden="true"></i></a></em>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="featurette-divider">
+
+                    <div class="row featurette">
+                        <div class="col-md-7 order-md-2">
+                            <h2 class="featurette-heading">음악 어플 UI/UX 컨셉 디자인 <br/><span class="text-muted">2019.01-2019.01</span></h2>
+                            <p class="lead">DESIGN 100%</p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                            <div class="port bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+                                <img width="500" height="500" src="img/music.jpg">
+                                <em class="text-center"><a target="_new" href="http://pinghaa.dothome.co.kr/music/"><i class="fa fa-search-plus fa-2x align-middle" aria-hidden="true"></i></a></em>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                     <hr class="featurette-divider">
+                </div>
+                <!-- /END THE FEATURETTES -->
+
+            </div><!-- /.container -->
+
+
+            <!-- FOOTER -->
+            <footer class="container">
+                <a class="pointer" href="#"><i class="fa fa-sort-asc fa-2x" aria-hidden="true"></i><br><em>top</em></a>
+                <p>2019&copy; 김예지. All right reserved. &middot; <br>본 사이트는 상업적 목적이 아닌 포트폴리오 사이트로 제작되었습니다.</p>
+            </footer>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')
+
+            
+            
+            
+            $(document).ready(function() {
+                $(function() {
+                    $('a[href^="#"]').click(function(e) {
+                        e.preventDefault();
+                        var id = $(this).attr('href');
+                        var hieght = $(id).offset().top;
+                        $('html,body').animate({
+                            scrollTop: hieght - '100'
+                        }, 500);
+                    });
+                });
+
+            })
+
+        </script>
+
+        <script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+
+    </body>
+
+    </html>
