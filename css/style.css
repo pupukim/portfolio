@@ -42,7 +42,7 @@
 /*포트폴리오*/
 .sub_title{
     font-size: 40px; font-family: 'Permanent Marker', cursive; color: #fff; 
-    background: url('../img/tBack.png') no-repeat center; 
+    background: url('https://media.githubusercontent.com/media/pupukim/portfolio/master//img/tBack.png') no-repeat center; 
 }
 #portfolio img{width: 100%; height: auto;}
 
